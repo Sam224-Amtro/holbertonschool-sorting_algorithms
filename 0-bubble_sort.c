@@ -5,10 +5,10 @@
 /**
  * bubble_sort - Sorts an array of integers in ascending order
  * using the bubble sort algorithm
- * @array: Array of integer
- * @size: Size of the array
+ * @array: the Array of integers to sort
+ * @size: the Size of the array
  *
- * * Description: Goes through the array repeatedly, compares
+ * Description: Goes through the array repeatedly, compares
  * adjacent elements and swaps them if they are in the wrong order.
  * Prints the array after each swap.
  */
