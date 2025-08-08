@@ -21,7 +21,7 @@ void bubble_sort(int *array, size_t size)
 	 */
 	if (array == NULL && size < 2)
 		return; /* ici c'est parce que ma condition a pris echec */
-		
+
 	/* On répète le tri (size - 1) plusieurs fois */
 	for (k = 0; k < size - 1; k++)
 	{
@@ -35,6 +35,8 @@ void bubble_sort(int *array, size_t size)
 				temp = array[j];
 				array[j] = array[j + 1];
 				array[j + 1] = temp;
+
+				print_array(array, size);
 			}
 		}
 	}
