@@ -4,10 +4,9 @@
 
 /**
  * selection_sort - that sorts an array of integers in ascending order using
- * @array: the pointers table to check
- * @size: the size to array check
- *
- * Return: the return void
+ * using the selection sort algorithm
+ * @array: Array of integers
+ * @size: Size of the array
  */
 void selection_sort(int *array, size_t size)
 {
@@ -20,6 +19,7 @@ void selection_sort(int *array, size_t size)
 	for (i = 0; i < size - 1; i++)
 	{
 		min_idx = i;
+
 		for (j = i + 1; j < size; j++)
 		{
 			if (array[j] < array[min_idx])
