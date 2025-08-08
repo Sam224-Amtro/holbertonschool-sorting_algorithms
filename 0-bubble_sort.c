@@ -2,12 +2,10 @@
 #include <stdlib.h>
 #include "sort.h"
 /**
- * bubble_sort - that sorts an array of integers in ascending order using
- * the Bubble sort algorithm
- * @array: this is the array to sorting
- * @size: th size to array
- *
- * Return: Always 0
+ * bubble_sort - Sorts an array of integers in ascending order
+ * using the bubble sort algorithm
+ * @array: Array of integer
+ * @size: Size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
