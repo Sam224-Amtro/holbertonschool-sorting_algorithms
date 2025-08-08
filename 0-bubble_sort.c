@@ -7,6 +7,10 @@
  * using the bubble sort algorithm
  * @array: Array of integer
  * @size: Size of the array
+ *
+ * * Description: Goes through the array repeatedly, compares
+ * adjacent elements and swaps them if they are in the wrong order.
+ * Prints the array after each swap.
  */
 
 void bubble_sort(int *array, size_t size)
