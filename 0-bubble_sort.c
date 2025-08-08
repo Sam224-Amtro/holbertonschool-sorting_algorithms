@@ -20,9 +20,8 @@ void bubble_sort(int *array, size_t size)
 	 * Si le tableau est vide ou a moins de 2 éléments, on ne fait rien
 	 */
 	if (array == NULL && size < 2)
-	{
 		return; /* ici c'est parce que ma condition a pris echec */
-	}
+		
 	/* On répète le tri (size - 1) plusieurs fois */
 	for (k = 0; k < size - 1; k++)
 	{
